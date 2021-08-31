@@ -1,0 +1,19 @@
+buat lah program dibawah ini
+Apakah anda punya kartu member?
+   - ya
+       * Apakah belanjaan anda lebih dari 250rb?
+           # ya : mendapatkan diskon 10%
+       * Apakah belanjaan anda lebih dari 100rb?
+           # ya : mendapatkan diskon 5%
+        * Apakah belanjaan anda kurang 100rb?
+           # ya: tidak mendapatkan diskon
+   - tidak
+       * Apakah belanjaan anda lebih dari 100rb?
+           # ya : mendapatkan diskon 2.5%
+           # tidak: tidak mendapatkan diskon
+
+output:
+kartu member : ya / tidak
+total belanja : xxxx
+diskon : xxx
+yang harus dibayar : xxx

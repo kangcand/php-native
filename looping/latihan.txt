@@ -1,0 +1,24 @@
+buatlah pengulangan dibawah ini menggunakan for / while &
+foreach
+1. 2 4 8 16 32 64 128
+2. 3125 625 125 25 5
+3. carilah sisa hasil bagi 3 dari array tsb
+   [18, 45, 29, 61, 47, 34] -> 18 % 3 = 0
+   menggunakan foreach / for
+4. buatlah looping bintang menggunakan nested
+    *
+    * *
+    * * *
+    * * * * 
+
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+ for ($i = 0; $i < 3; $i++) {
+    for ($j = 0; $j < 5; $j++) {
+        echo "Ini perulangan ke ($i, $j)<br>";
+    }
+    echo "<hr>";
+}

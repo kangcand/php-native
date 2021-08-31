@@ -1,0 +1,8 @@
+ada sebuah test masuk universitas negeri
+kejuran olahraga
+jika nilai akademik > 85 dan juga nilai atletik 
+nya > 83 maka dinyatakan lulus
+jika kurang salah satu atau keduanya
+maka dinyatakan tidak lulus
+buatlah progam tsb menggunakan kombinasi antara 
+operator logika, perbandingan dan juga operator ternary

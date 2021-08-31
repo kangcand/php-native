@@ -1,0 +1,92 @@
+buatlah inputan seperti dibawah ini
+1. masukan bilangan 1 & bilangan 2
+output
+bil 1 + bil 2 = ...
+bil 1 - bil 2 = ...
+bil 1 * bil 2 = ...
+bil 1 / bil 2 = ...
+
+2. pilih program dibawah ini (menggunakan select)
+   - program luas & keliling segitigaz
+   - program luas & keliling lingkaran
+   - program luas & keliling persegi
+   - program luas & keliling persegi panjang
+
+3. masukan jumlah bintang
+    example : 5
+    output 
+            *
+           * *
+          * * *
+         * * * *
+        * * * * *
+        * * * * *
+         * * * *
+          * * *
+           * *
+            *
+4. buatlah program penggajian dari deskripsi dibawah ini
+user akan memasukan nama, jenis kelamin, agama, golongan dan jumlah jam kerja,  
+dan tunjangan pengabdian akan ditentukan berdasarkan golongan yang dimasukan.
+
+Jumlah jam kerja normal didalam sebulan diasumsikan adalah 173 jam, 
+jika melebihi jam tersebut jam berikutnya akan dihitung sebagai 
+jam lembur dengan rumus jam lembur=jam kerja-173. 
+Apabila jam kerja sama dengan 173 atau kurang dari jam tersebut artinya 
+bahwa jam lembur karyawan tersebut 0.
+
+Jam lembur di bayar Rp.20.000 per/jam, jadi misalnya seorang karyawan 
+bekerja dengan total jam kerja sebanyak 180 jam didalam sebulan artinya 
+karyawan tersebut memiliki jam lembur sebanyak 7 jam jika per jam dihitung 
+Rp 20.000 maka gaji lembur karyawan tersebut adalah Rp 140.000.
+Setiap karwayan untuk semua golongan akan dikenakan pajak 
+untuk gaji pokok dan tunjangan pengabdian sebesar 0,5%.
+
+ketentuan:
+nama (text)
+jenis kelamin (radio)
+agama (select)
+golongan (select)
+jumlah jam (number)
+
+golongan 1 : 
+gaji pokok = 1,5 juta
+tunjangan = 150000;
+
+golongan 2 :
+gaji pokok = 2 juta
+tunjangan = 200000;
+
+golongan 3 :
+gaji pokok = 2,5 juta
+tunjangan = 250000;
+
+golongan 4 :
+gaji pokok = 3 juta
+tunjangan = 300000;
+
+jam kerja > 173 :
+get lembur = 20 ribu/jam
+
+pajak :
+5% dari gaji pokok
+5% dari gaji lembur
+
+gaji diterima:
+total gaji - total pajak
+
+output:
+nama
+jenis kelamin
+agama
+gaji pokok
+gaji lembur
+pajak gaji pokok
+pajak lembur
+total pajak
+tunjangan pengabdian
+gaji diterima
+
+
+
+

@@ -1,0 +1,18 @@
+tentukan kondisi bilangan dibawah ini 
+menggunakan operator logika
+
+1  < 10
+9  > 10 dan 10 > 9
+10 > 11 atau 9 < 10
+
+Tono memiliki uang sebesar 10rb dan tini memiliki uang sebesar
+8 ribu dan toni memiliki uang sebesar 15rb
+1. apakah uang toni lebih besar dari tono dan tini
+2. juga uang toni lebih besar tini dan tidak lebih besar
+dari tono
+
+buat lah sebuah progam login sederhana
+jika username dan password nya sesuai maka ada keterangan
+login = 1
+
+silahkan buat progam di atas

@@ -1,0 +1,23 @@
+program masuk sekolah favorit
+Latihan array 1 dimensi
+halaman 1
+masukan jumlah data : ....
+
+muncul inputan sesuai jumlah yang dimasukan 
+input:
+nama
+asal sekolah
+nilai bahasa indonesia
+nilai matematika
+nilai bahasa inggris
+nilai ipa
+
+
+halaman 2 (output)
+nama
+asal sekolah
+nilai bahasa indonesia
+nilai matematika
+nilai bahasa inggris
+nilai ipa
+total nilai & keterangan (total nilai > 340 "Diterima" : "Tidak Diterima")

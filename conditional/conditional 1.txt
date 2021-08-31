@@ -1,0 +1,21 @@
+1. IF ELSE
+Jika nilai >= 90 Grade A
+Jika nilai >= 80 Grade B
+Jika nilai >= 70 Grade C
+Jika nilai >= 60 Grade D 
+Jika nilai < 60 Grade E  
+
+2. Switch Case
+Jika Grade A -> Pertahankan
+Jika Grade B -> Harus Lebih baik Lagi
+Jika Grade C -> Perbanyak Belajar
+Jika Grade D -> Jangan keseringan main
+Jika Grade E -> Kebanyakan Bolos
+Default -> Format Tidak sesuai
+
+3. Kombinasi If & Switch
+Nilai : xxxx
+Grade : xxxx
+Keterangan : xxxx
+
+

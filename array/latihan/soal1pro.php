@@ -1,6 +1,5 @@
 <?php
-if(isset($_POST['save']))
-{
+if (isset($_POST['save'])) {
     $nama = $_POST['nama'];
     $asalSekolah = $_POST['asalSekolah'];
     $indo = $_POST['indo'];
@@ -8,9 +7,10 @@ if(isset($_POST['save']))
     $mtk = $_POST['mtk'];
     $ipa = $_POST['ipa'];
     $totalNilai = 0;
-    // var_dump($totalNilai);
+    $rata = 0;
+
     $keterangan = "";
-   
+
 }
 ?>
 <!DOCTYPE html>
@@ -34,12 +34,13 @@ if(isset($_POST['save']))
                 <th>Matematika</th>
                 <th>Ilmu Pengetahuan Alam</th>
                 <th>Jumlah Nilai</th>
+                <th>Rata-rata</th>
                 <th>Keterangan</th>
             </tr>
-            
+
             <?php
-            $no = 1;
-            for($i=0; $i < count($nama); $i++){ ?>
+$no = 1;
+for ($i = 0; $i < count($nama); $i++) {?>
             <tr>
                 <td><?php echo $no++; ?></td>
                 <td><?php echo $nama[$i]; ?></td>
@@ -48,18 +49,20 @@ if(isset($_POST['save']))
                 <td><?php echo $inggris[$i]; ?></td>
                 <td><?php echo $mtk[$i]; ?></td>
                 <td><?php echo $ipa[$i]; ?></td>
-                <?php $totalNilai = $indo[$i] + $inggris[$i] + $mtk[$i] + $ipa[$i]; 
-                     if($totalNilai > 340)
-                     {
-                         $keterangan = "Diterima";
-                     } else {
-                        $keterangan = "Tidak Diterima";
-                     }
-                ?>
+                <?php $totalNilai = $indo[$i] + $inggris[$i] + $mtk[$i] + $ipa[$i];
+    $rata = ($indo[$i] + $inggris[$i] + $mtk[$i] + $ipa[$i]) / 4;
+
+    if ($totalNilai > 340) {
+        $keterangan = "Diterima";
+    } else {
+        $keterangan = "Tidak Diterima";
+    }
+    ?>
                 <td><?php echo $totalNilai; ?></td>
+                 <td><?php echo $rata; ?></td>
                 <td><?php echo $keterangan; ?></td>
             </tr>
-            <?php } ?>
+            <?php /latihan/array-multi.php}?>
         </table>
     </fieldset>
 </body>

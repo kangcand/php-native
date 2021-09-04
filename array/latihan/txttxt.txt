@@ -1,0 +1,27 @@
+<table>
+	<tr>
+		<th>No</th>
+		<th>Nama</th>
+		<th>Dosen</th>
+		<th>Mata Kuliah</th>
+		<th>Hobi</th>
+	</tr>
+    $no=1;
+	for($array as $result)
+	{
+	<tr>
+		<td><?php echo $no++; ?>/td>
+		<td><?php echo $result['namaMhs']; ?></td>
+		<td><?php echo $result['namaDosen']; ?></td>
+		<td>
+			<ul>
+			for($result['mataKuliah] as $matkul)
+			{
+				echo "<li>".$matkul['nama']."</li>";
+			}
+			</ul>
+		</td>
+		<th>Hobi</th>
+	</tr>
+	}
+<table>

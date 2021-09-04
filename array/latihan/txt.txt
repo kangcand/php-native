@@ -1,0 +1,9 @@
+{
+  "nama": "Nurul Huda",
+  "domisili": "Surabaya",
+  "usia": 23,
+  "wni": true,
+  "hobi": [
+    "Berenang", "Berlari", "Bertamasya"
+  ]
+}

@@ -1,0 +1,16 @@
+buatlah struktur array dibawah ini
+
+ada 2 dosen bernama "Aceng Fikri & Ujang Betok" memiliki
+6 mahasiswa yang bernama "bebas", masing-masing memiliki
+3 mahasiswa dari aceng dan ujang
+ke enam mahasiswa tersebut memiliki 3 mata kuliah
+yang berbeda, dan memiliki 2 hobi yang berbeda
+
+silahkan buat array di atas dan tampilkan menggunakan foreach
+output:
+Nama Dosen :
+Nama Siswa : * Ahmad
+             - RPL,
+               Database,
+               OOP
+               HObi : A & B

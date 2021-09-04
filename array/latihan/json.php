@@ -31,7 +31,8 @@ $dataFilm = '{
   "imdbRating": "8.1",
   "imdbVotes": "183,131",
   "imdbID": "tt0061722"
-}';
+},
+';
 
 $data = json_decode($dataFilm);
 ?>

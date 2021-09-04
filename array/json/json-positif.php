@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://api.kawalcorona.com/";
+$url = "https://api.kawalcorona.com/positif/";
 // persiapkan curl / init curl
 $ch = curl_init();
 // set url
@@ -33,26 +33,13 @@ echo $dataCovid;
     <fieldset>
         <legend>Data Covid</legend>
         <table border=1>
+            <?php $data = json_decode($dataCovid);?>
             <tr>
-                <th>No</th>
-                <th>Negara</th>
-                <th>Positif</th>
-                <th>Meninggal</th>
-                <th>Sembuh</th>
+                <th><?php echo $data->name; ?></th>
             </tr>
-            <?php
-$no = 1;
-$data = json_decode($dataCovid);
-foreach ($data as $covid) {
-    ?>
             <tr>
-                <td><?php echo $no++; ?></td>
-                <td><?php echo $covid->attributes->Country_Region; ?></td>
-                <td><?php echo $covid->attributes->Confirmed; ?></td>
-                <td><?php echo $covid->attributes->Deaths; ?></td>
-                <td><?php echo $covid->attributes->Recovered; ?></td>
+                <td><?php echo $data->value; ?></td>
             </tr>
-            <?php }?>
         </table>
     </fieldset>
 </body>

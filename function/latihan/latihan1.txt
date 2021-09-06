@@ -1,0 +1,5 @@
+1. Tuliskan sebuah function yang kita sebut tentang_saya().
+2. Function tersebut mengambil dua parameter, $nama dan $umur.
+3. Dan function tersebut mengembalikkan 
+"Hi, saya $nama dan umur saya $umur".
+Panggil dan simpan function yang sudah dibuat

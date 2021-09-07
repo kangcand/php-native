@@ -47,12 +47,12 @@
                 <tr>
                     <th>Hobi</th>
                     <td>
-                        <input type="checkbox" name="hobi[]" value="Futsal" required> Futsal
-                        <input type="checkbox" name="hobi[]" value="Mancing" required> Mancing
-                        <input type="checkbox" name="hobi[]" value="Berenang" required> Berenang
-                        <input type="checkbox" name="hobi[]" value="Membaca" required> Membaca
-                        <input type="checkbox" name="hobi[]" value="Bernyanyi" required> Bernyanyi
-                        <input type="checkbox" name="hobi[]" value="Game" required> Game
+                        <input type="checkbox" name="hobi[]" value="Futsal" > Futsal
+                        <input type="checkbox" name="hobi[]" value="Mancing" > Mancing
+                        <input type="checkbox" name="hobi[]" value="Berenang" > Berenang
+                        <input type="checkbox" name="hobi[]" value="Membaca" > Membaca
+                        <input type="checkbox" name="hobi[]" value="Bernyanyi" > Bernyanyi
+                        <input type="checkbox" name="hobi[]" value="Game" > Game
                     </td>
                 </tr>
                 <tr>
@@ -61,6 +61,30 @@
                 </tr>
             </table>
         </form>
+         <?php
+if (isset($_POST['save'])) {
+    $nama = $_POST['nama'];
+    $jenisKelamin = $_POST['jenisKelamin'];
+    $tglLahir = $_POST['tglLahir'];
+    $agama = $_POST['agama'];
+    $alamat = $_POST['alamat'];
+    $hobi = $_POST['hobi'];
+
+    function biodata($nama = "", $jenisKelamin = "", $tglLahir = "", $agama = "", $alamat = "", $hobi = "")
+    {
+        $hasil = "Nama : $nama <br>";
+        $hasil .= "Jenis Kelamin : $jenisKelamin <br>";
+        $hasil .= "Tanggal Lahir : $tglLahir <br>";
+        $hasil .= "Agama : $agama <br>";
+        $hasil .= "Alamat : $alamat <br>";
+        $hasil .= "Hobi : " . implode(", ", $hobi);
+        return $hasil;
+
+    }
+    echo "<br>";
+    echo biodata($nama, $jenisKelamin, $tglLahir, $agama, $alamat, $hobi);
+}
+?>
     </fieldset>
 </body>
 </html>

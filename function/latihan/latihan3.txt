@@ -4,6 +4,7 @@ nama(text), jenis kelamin(radio), tanggal lahir(date),
 agama(select),alamat(textarea), dan hobi(checkbox) -> 6 hobi
 
 untuk hobi di tampung kedalam array
+
 echo tampilBiodata();
 nama : ....
 ..... sampai ke

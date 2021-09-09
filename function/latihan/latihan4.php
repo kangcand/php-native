@@ -8,7 +8,7 @@
 </head>
 <body>
     <fieldset>
-        <legend>Faktorial</legend>
+        <legend>Perpangkatan</legend>
         <form action="" method="post">
             <table>
                 <tr>

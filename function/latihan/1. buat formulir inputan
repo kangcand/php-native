@@ -1,0 +1,15 @@
+1. buat formulir inputan
+masukan bilangan : 5
+masukan pangkat : 3
+perpangkatan 5 x 5 x 5 = 125
+
+buatlah program diatas menggunakan form 
+dan juga fungsi rekursif
+
+2. carilah nilai terbesar dan terkecil dari array dibawah ini
+
+var array = [90, 80, 60, 100, 127, 81, 51, 99];
+menggunakan fungsi rekursif;
+clue -> loop & conditional
+fungsi minimal
+fungsi maksimal

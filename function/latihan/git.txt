@@ -1,0 +1,23 @@
+1. masuk ke dalam folder / directory project
+2. kemudian klik kanan -> git bash here
+3. pastikan di dalam gitbash directory nya seperti ini
+"c/xampp/htdocs/namaproject"
+4. buka github.com -> buat repo baru 
+5. kembali ke gitbash
+6. ikuti perintah di bawah ini
+
+* belum mempunyai repo di github
+# git init
+# git config user.name "nama sendiri"
+# git config user.email "email sendiri"
+# git add .
+# git commit -m "Inisialisasi Project"
+# git remote add origin 
+https://github.com/usernamesendiri/namarepo.git
+git push origin master
+
+*sudah mempunyai repo di github
+git add .
+git commit -m "Pesan pembaruan yang sudah dikerjakan"
+git push origin master
+7. refresh repo di github.com

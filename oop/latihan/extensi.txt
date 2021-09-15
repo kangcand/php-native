@@ -1,0 +1,18 @@
+
+1. editor config for VS COde
+2. Bloc
+3. Bracket Pain Colorizer 2
+4. Formatting toggle
+5. Color Highlight
+6. Auto close tag
+7. Auto complete tag
+8. Laravel blade
+9. Laravel blade formatter
+10. Material icon (desain vscode)
+11. Bracket pair colorizer
+12. Auto import
+13. Auto rename tag
+14. Markdownlint
+15. Error Lens
+16. atom material theme
+17. phpfmt

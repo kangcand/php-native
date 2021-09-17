@@ -6,10 +6,10 @@ kemudian di class mataKuliah memiliki data dosen, mata kuliah
 dan juga status
 
 jika nilai mata kuliah lebih besar dari 85 maka memiliki
-grade a, jika nilai mata kuliah lebih besar dari 75 maka 
-memiliki grade b, jika nilai mata kuliah lebih besar 
-dadir 65 maka memiliki grade c, dan kurang dari 65 maka 
-memiliki grade D
+grade a(Lulus), jika nilai mata kuliah lebih besar dari 75 
+maka memiliki grade b(Lulus), jika nilai mata kuliah 
+lebih besar dari 65 maka memiliki grade c(Perbaikan), dan 
+kurang dari 65 maka memiliki grade D(Tidak Lulus)
 
 buat lah inheritance dari kedua class di atas
 

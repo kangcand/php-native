@@ -1,0 +1,16 @@
+buatlah sebuah form dengan konsep oop dimana ada dua class
+yaitu class mahasiswa dan juga mata kuliah
+
+di class mahasiswa memiliki data nama, nim & nilai 
+kemudian di class mataKuliah memiliki data dosen, mata kuliah
+dan juga status
+
+jika nilai mata kuliah lebih besar dari 85 maka memiliki
+grade a, jika nilai mata kuliah lebih besar dari 75 maka 
+memiliki grade b, jika nilai mata kuliah lebih besar 
+dadir 65 maka memiliki grade c, dan kurang dari 65 maka 
+memiliki grade D
+
+buat lah inheritance dari kedua class di atas
+
+output : nama, nim, nilai, dosen, mataKuliah dan juga status

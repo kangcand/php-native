@@ -1,0 +1,14 @@
+ada sebuah kucing dirumah sakit jika diperhatikan lagi
+kaki kucing tersebut sangat membingungkan karena bisa terlihat
+4 kaki, 3 kaki dan juga 5 kaki atau lebih
+buat lah sebuah form yang bisa menentukan jumlah kaki kucing 
+tersebut jika kaki yang dilihat ada 3 maka 
+kucing tersebut cingked dan jika kaki yang dilihat 
+ada 4 maka kucing tersebut kucing normal, dan jika 
+kucing tersebut terlihat memiliki lebih 
+dari 4 kaki maka kucing tersebut bisa disebut siluman kucing
+tentukan warna dari kucing tersebut
+
+buatlah program dari cerita di atas menggunakan oop
+
+

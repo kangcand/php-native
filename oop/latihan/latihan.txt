@@ -1,0 +1,10 @@
+di dunia ini ada 4 jenis hamba yang diciptkan oleh tuhan
+ada manusia, ada jin, ada malaikat dan juga ada setan
+tugas manusia dan malaikat adalah beribadah kepada tuhan
+sedangkan setan tugasnya adalah mengganggu manusia agar 
+tidak beribadah, sedangkan jin ada dua jenis ada yang taat 
+beribadah dan juga ada yang sesat tugasnya sama seperti setan
+
+buatlah inheritance dari cerita di atas 
+tentukan class property & method nya dan 
+buat menggunakan form dan juga construct

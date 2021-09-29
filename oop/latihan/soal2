@@ -1,0 +1,18 @@
+buat lah sebuah sistem pembayaran dari aplikasi
+Gofud
+
+nama barang
+harga 
+jumlah pesanan
+sistem pembayaran -> Cash, M-Banking, Gopay, pickUp
+
+jika pesanan lebih dari 150 ribu maka getDiscount = 10%
+jika pesanan lebih dari 250 ribu maka getDiscount = 15%
+
+pembayaran cash -> tidak mendaptakan cashback
+pembayaran M-Banking -> tambahan getDiscount 2.5%
+pembayaran Gopay -> mendapatkan cashback sebesar 10%
+pembayaran pickUp -> tambahan getDiscount 1.5%
+
+output: nama barang, harga, jumlah pesanan, jenis pembayaran,
+        diskon, cashback dan jumlah yang harus dibayar
